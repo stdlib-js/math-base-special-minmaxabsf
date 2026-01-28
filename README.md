@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minmaxabsf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@deno/mod.js';
+import minmaxabsf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@v0.1.0-deno/mod.js';
 ```
 
 #### minmaxabsf( x, y )
@@ -122,7 +122,7 @@ var bool = ( v === out );
 ```javascript
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import minmaxabsf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@deno/mod.js';
+import minmaxabsf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-minmaxabsf@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
